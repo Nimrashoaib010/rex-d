@@ -1,0 +1,64 @@
+ *{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 80px;
+margin-left: 70px;;
+}
+
+.nav-item{
+    color: grey;
+    text-decoration: underline;
+}
+.para {
+    color: grey;
+} 
+.card-text {
+    color: grey;
+}
+.animated-box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: moveUpandDown 2s infinite;
+}
+
+@keyframes moveUpandDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.curved h2 {
+    font-size: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+
+.curved p {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.curved svg {
+    display: block;
+}
+
+.call {
+    float: left;
+    margin: 10px;
+}
